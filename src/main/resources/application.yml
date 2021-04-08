@@ -1,13 +1,19 @@
 server:
-  port: 22976
-
+  port: 22980
+Это локальные настройки
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:2345/studs
     username: postgres
-    password: bgi855
-
+    password: Скинул в вк
+Это настройки на Гелиосе
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://pg:5342/studs
+    username: s244709
+    password: Скинул в вк
   jpa:
     hibernate:
       ddl-auto: update
