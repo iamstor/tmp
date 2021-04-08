@@ -1,6 +1,7 @@
 server:
   port: 22980
 Это локальные настройки
+
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
